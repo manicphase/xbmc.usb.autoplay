@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label=”Settings”>
+        <setting label="Default Folder" type="folder" id="defaultfolder" default=""/>
+        <setting label="Advert Folder" type="folder"   id="advertfolder" default=""/>
+        <setting label="Time dedicated to Adverts (in percent)" type="slider" id="limit" subsetting="true" default="20" range="0,5,100" option="int" />
+        <setting type="sep"/>
+        <setting id="debug" type="bool" label="32013" default="false"/>
+    </category>
+</settings>
